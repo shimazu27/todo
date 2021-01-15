@@ -1,7 +1,7 @@
-
-const addTask = document.getElementById("addTask");
-const list = document.getElementById("list");
-const taskTitle = document.getElementById("taskTitle");
+// DOM要素取得
+const addTask = document.getElementById("addTask"); //タスク追加ボタン(button)
+const list = document.getElementById("list"); //空のリスト(ul)
+const taskTitle = document.getElementById("taskTitle"); //
 
 const addTodo = task => {
   const taskList = document.createElement("li");
