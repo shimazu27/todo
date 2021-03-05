@@ -1,0 +1,27 @@
+<!DOCtype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>TODOアプリ</title>
+</head>
+ <body>
+　<h1>TODOリスト</h1>
+ 　<p>Name<input id="name" type="text" />
+  　　Todo<input id="todo" type="text" />
+  　　Option<input id="option" type="text" />
+ 　　<input type="button" id="add" onclick="addTask()" value="追加">
+ 　　<input type="button" id="clear" onclick="clearStorage()" value="全て削除">
+ 　</p>
+
+ <table border="1">
+   <tr>
+     <th>Name</th>
+     <th>todo</th>
+     <th>Option</th>
+     <th>ボタン</th>
+   </tr>
+   <tbody id="tb"></tbody>
+ </table>
+   <script src="main.js"></script>
+ </body>
+</html>
