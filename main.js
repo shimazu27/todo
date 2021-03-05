@@ -24,7 +24,7 @@ var removeTask = function(key){
 
 var clearTasks = function(){
     localStorage.clear();
-    viewStorage();
+    viewTask();
 };
 
 var viewTask = function(){
